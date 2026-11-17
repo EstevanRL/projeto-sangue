@@ -20,9 +20,9 @@ final class DatabaseConnection
 
         self::$attempted = true;
         $host = getenv('DB_HOST') ?: '127.0.0.1';
-        $database = getenv('DB_NAME') ?: 'compatibilidade_sanguinea';
-        $username = getenv('DB_USER') ?: 'root';
-        $password = getenv('DB_PASS') ?: '';
+        $database = getenv('DB_NAME') ?: 'administrador_compatibilidade_sanguinea';
+        $username = getenv('DB_USER') ?: 'administrador_a5';
+        $password = getenv('DB_PASS') ?: '}XX*Ns17t~pdh0P+';
         $dsn = "mysql:host={$host};dbname={$database};charset=utf8mb4";
 
         try {
