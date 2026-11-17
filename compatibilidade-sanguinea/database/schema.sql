@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS compatibilidade_sanguinea
+CREATE DATABASE IF NOT EXISTS administrador_compatibilidade_sanguinea
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE compatibilidade_sanguinea;
+USE administrador_compatibilidade_sanguinea;
 
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
